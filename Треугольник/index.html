@@ -10,9 +10,9 @@
     <div class="main">
         <a id="title">Введите стороны треугольника</a>
         <div class="inputs">
-            <input id="inp1" type="text" placeholder="Первая сторона">
-            <input id="inp2" type="text" placeholder="Вторая сторона">
-            <input id="inp3" type="text" placeholder="Третья сторона">
+            <input id="inp1" type="text" placeholder="Первая сторона" onchange="input(this)">
+            <input id="inp2" type="text" placeholder="Вторая сторона" onchange="input(this)">
+            <input id="inp3" type="text" placeholder="Третья сторона" onchange="input(this)">
         </div>
         <button id="resbutton" onclick="calc()">Рассчитать</button>
     </div>

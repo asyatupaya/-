@@ -1,7 +1,7 @@
 body {
     width: 100vw;
     height: 100vh;
-    background: rgb(55, 148, 179);
+    background: rgb(59, 161, 195);
     margin: 0;
     display: flex;
     align-items: center;
@@ -52,13 +52,13 @@ body {
         height: 32px;
         width: 180px;
         box-sizing: border-box;
-        background: rgb(231, 187, 43);
+        background: rgb(244, 197, 45);
         border: 1px rgb(36, 36, 36) solid;
         font-size: 15px;
         outline: none;
     }
     #resbutton:hover {
-        background: rgb(212, 173, 43);
+        background: rgb(226, 184, 45);
     }
 }
 
